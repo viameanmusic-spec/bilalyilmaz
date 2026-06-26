@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+, "components/sections/parallax-banner.jsx", "components/sections/marquee.jsx", "components/sections/loader.jsx", "components/sections/hero.jsx", "components/sections/faq.jsx", "components/sections/contact.jsx", "components/sections/about.jsx", "components/sections/whatsapp-button.jwsx", "components/sections/stats.jsx", "components/sections/site-header.jsx", "components/sections/site-footer.jsx", "components/sections/showcase.jsx", "components/sections/services.jsx", "components/sections/reviews.jsx", "components/sections/process.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
